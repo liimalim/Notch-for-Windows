@@ -1,6 +1,13 @@
 # Changelog
 
-All notable changes to Notch for Windows. The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Notch-for-Windows/releases/latest) page, so this file is the full history.
+All notable changes to Poni (called Notch for Windows up to 1.0.9). The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Poni/releases/latest) page, so this file is the full history.
+
+## 1.1.0 (2026-10-21)
+
+- Notch for Windows is now Poni. Settings, todos, notes and stats move over by themselves on the first start.
+- The update replaces the old Notch install; the Start menu shortcut and launch at login now use the name Poni.
+- New home: github.com/liimalim/Poni (old links still work).
+- Data folder is now %APPDATA%\Poni and the OneDrive drop folder is OneDrive\Poni.
 
 ## 1.0.9 (2026-10-21)
 
