@@ -1,20 +1,20 @@
 # Notch for Windows
 
-An interactive notch for Windows 10 & 11. It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
+An interactive notch for Windows 10 and 11. It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
 
-**[⬇ Download the latest version](https://github.com/liimalim/Notch-for-Windows/releases/latest)**: pick **`Notch_x.y.z_x64-setup.exe`** (recommended, updates itself) or the portable `.exe`.
+**[Download the latest version](https://github.com/liimalim/Notch-for-Windows/releases/latest)**: pick `Notch_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`.
 
 ## Features
 
-- 🎵 **Music**: album art with color glow, live visualizer, controls for any player in the Windows media controls (Spotify, browsers, VLC…)
-- ▦ **Dashboard**: weather, quick toggles (keep awake, dark mode, mute mic, lock…), app launcher, day progress
-- 📆 **Calendar**: Google Calendar, Outlook or any calendar with an iCal (.ics) link, meeting reminders in the notch
-- ✅ **Todo**, 📝 **Notes**, ⏱ **Pomodoro**, ⛅ **Weather**, ❤️ **Health** (water, breaks, breathing, 20-20-20 eye breaks)
-- ⏳ **Screen Time**, 📊 **Day Progress**, 🎧 **Bluetooth** battery, 🖥 **System** stats
-- 📥 **Shelf** + **Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
-- 🪟 **Snap Zones**: drag a window onto the notch to tile it
-- 🔊 **HUD** for volume & brightness, 🐱 optional 3D cat that watches your mouse
-- 🌐 **Translate** (Claude or local Ollama), 🐙 **GitHub** pull requests
+- **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers, VLC and more)
+- **Dashboard**: weather, quick toggles (keep awake, dark mode, mute mic, lock), app launcher, day progress
+- **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch
+- **Todo, Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
+- **Screen Time, Day Progress, Bluetooth battery, System stats**
+- **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
+- **Snap Zones**: drag a window onto the notch to tile it
+- **HUD** for volume and brightness, and an optional 3D cat that watches your mouse
+- **Translate** (Claude, any OpenAI-compatible API, or local Ollama) and **GitHub** pull requests
 
 ## Updates
 
@@ -24,12 +24,12 @@ The installed (Setup) version checks this page for new versions and updates itse
 
 Notch is free. If it helps you, you can treat the developer to a coffee:
 
-- **[☕ Support on Gumroad](https://bosdigital.gumroad.com/l/notch-for-windows)** (international: card or PayPal, pay what you want)
+- **[Support on Gumroad](https://bosdigital.gumroad.com/l/notch-for-windows)** (international: card or PayPal, pay what you want)
 - **QRIS** (Indonesia: GoPay, OVO, DANA, ShopeePay, mobile banking)
 
   <img src="assets/qris.jpg" alt="QRIS Bos Digital" width="260">
 
-In Notch, click the ☕ button next to the settings gear (or open Settings → About). Made by **Bos Digital**.
+In Notch, click the cup button next to the settings gear (or open Settings → About). Made by **Bos Digital**.
 
 ## Requirements
 
@@ -39,7 +39,35 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Notch`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, translation, and update checks.
+Everything stays on your PC (`%APPDATA%\Notch`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, translation (the provider you pick), and update checks.
+
+## Changelog
+
+### 1.0.4 (2026-10-21)
+
+- Translate: new "OpenAI-compatible API" provider. Works with OpenAI, OpenRouter, Groq, DeepSeek, Mistral, Gemini, LM Studio, Ollama and more. Set the base URL, API key and model in Settings > Translate.
+
+### 1.0.3 (2026-10-21)
+
+- Fixed: Settings sometimes opened behind other windows (only the taskbar button showed)
+- Support page shows the merchant name "Bos Digital"
+
+### 1.0.2 (2026-10-21)
+
+- Support button in the notch: the cup next to the settings gear shows QRIS (Indonesia) and Gumroad (international)
+- You can hide it in Settings > About
+
+### 1.0.1 (2026-10-21)
+
+- Support Notch: QRIS (Indonesia) and Gumroad (international) in Settings > About
+- Fixed: Reset, Quit and the update toggles on the About page didn't respond
+- Updated app description
+
+### 1.0.0 (2026-10-21)
+
+- First public release: Music, Dashboard, Calendar, Todo, Notes, Pomodoro, Weather, Health, Screen Time, Day Progress, Bluetooth, System stats, Translate, GitHub
+- Shelf and Drop Actions, Snap Zones, volume/brightness HUD, optional 3D cat
+- Automatic updates for the Setup version: Notch checks GitHub and installs signed updates by itself
 
 ---
 
