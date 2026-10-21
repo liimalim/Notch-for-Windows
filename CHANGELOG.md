@@ -2,6 +2,10 @@
 
 All notable changes to Notch for Windows. The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Notch-for-Windows/releases/latest) page, so this file is the full history.
 
+## 1.0.8 (2026-10-21)
+
+- Todo: tasks due within the hour are now shown together under the closed notch (up to 3, then "+N more"), each with its own countdown. The group still takes turns with music, Focus and other activities.
+
 ## 1.0.7 (2026-10-21)
 
 - Todo: when several tasks are due within the hour, the closed notch takes turns showing each one, and tasks due at the same time each get their own alert.
