@@ -29,7 +29,7 @@ Notch is free. If it helps you, you can treat the developer to a coffee:
 
   <img src="assets/qris.jpg" alt="QRIS Bos Digital" width="260">
 
-In Notch, click the cup button next to the settings gear (or open Settings → About). Made by **Bos Digital**.
+In Notch, click the cup button next to the settings gear (or open Settings → About). Made by **Alim AJ** · Bos Digital.
 
 ## Requirements
 
