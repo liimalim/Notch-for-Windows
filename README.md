@@ -24,6 +24,7 @@ The installed (Setup) version checks this page for new versions and updates itse
 
 Notch is free. If it helps you, you can treat the developer to a coffee:
 
+- **[☕ Support on Gumroad](https://bosdigital.gumroad.com/l/notch-for-windows)** (international: card or PayPal, pay what you want)
 - **QRIS** (Indonesia: GoPay, OVO, DANA, ShopeePay, mobile banking)
 
   <img src="assets/qris.jpg" alt="QRIS Bos Digital" width="260">
