@@ -2,6 +2,10 @@
 
 All notable changes to Notch for Windows. The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Notch-for-Windows/releases/latest) page, so this file is the full history.
 
+## 1.0.7 (2026-10-21)
+
+- Todo: when several tasks are due within the hour, the closed notch takes turns showing each one, and tasks due at the same time each get their own alert.
+
 ## 1.0.6 (2026-10-21)
 
 - Todo: give a task a due time with the clock button, or end it with "15m", "2h" or "14:30". The closed notch counts down the next task due within an hour and alerts with a chime when it's due.
