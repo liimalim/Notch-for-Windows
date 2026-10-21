@@ -1,15 +1,15 @@
-# Notch for Windows
+# Poni
 
-An interactive notch for Windows 10 and 11. It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
+An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
 
-**[Download the latest version](https://github.com/liimalim/Notch-for-Windows/releases/latest)**: pick `Notch_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`.
+**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`.
 
 ## Features
 
 - **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers, VLC and more)
 - **Dashboard**: weather, quick toggles (keep awake, dark mode, mute mic, lock), app launcher, day progress
 - **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch
-- **Todo, Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
+- **Todo** with due times and a countdown in the closed notch, **Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
 - **Screen Time, Day Progress, Bluetooth battery, System stats**
 - **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
 - **Snap Zones**: drag a window onto the notch to tile it
@@ -18,18 +18,20 @@ An interactive notch for Windows 10 and 11. It lives at the top of your screen: 
 
 ## Updates
 
-The installed (Setup) version checks this page for new versions and updates itself (Settings → About). Every update is signed, so Notch only installs files signed by the author. The portable version shows a notice instead.
+The installed (Setup) version checks this page for new versions and updates itself (Settings → About). Every update is signed, so Poni only installs files signed by the author. The portable version shows a notice instead.
+
+Coming from Notch for Windows? Nothing to do: Notch updates itself to Poni, removes the old install and keeps your settings, todos and notes.
 
 ## Support
 
-Notch is free. If it helps you, you can treat the developer to a coffee:
+Poni is free. If it helps you, you can treat the developer to a coffee:
 
 - **[Support on Gumroad](https://bosdigital.gumroad.com/l/notch-for-windows)** (international: card or PayPal, pay what you want)
 - **QRIS** (Indonesia: GoPay, OVO, DANA, ShopeePay, mobile banking)
 
   <img src="assets/qris.jpg" alt="QRIS Bos Digital" width="260">
 
-In Notch, click the cup button next to the settings gear (or open Settings → About). Made by **Alim AJ** · Bos Digital.
+In Poni, click the cup button next to the settings gear (or open Settings → About). Made by **Alim AJ** · Bos Digital.
 
 ## Requirements
 
@@ -39,7 +41,7 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Notch`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, translation (the provider you pick), and update checks.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, translation (the provider you pick), and update checks.
 
 ## Changelog
 
@@ -47,4 +49,4 @@ What changed in every version: see [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
-**Bahasa Indonesia:** Notch interaktif di bagian atas layar Windows. Unduh **Setup** dari [Releases](https://github.com/liimalim/Notch-for-Windows/releases/latest) supaya Notch bisa update otomatis. Kalau Notch bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
+**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis. Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
