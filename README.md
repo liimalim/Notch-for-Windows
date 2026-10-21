@@ -20,6 +20,16 @@ An interactive notch for Windows 10 & 11. It lives at the top of your screen: ho
 
 The installed (Setup) version checks this page for new versions and updates itself (Settings → About). Every update is signed, so Notch only installs files signed by the author. The portable version shows a notice instead.
 
+## Support
+
+Notch is free. If it helps you, you can treat the developer to a coffee:
+
+- **QRIS** (Indonesia: GoPay, OVO, DANA, ShopeePay, mobile banking)
+
+  <img src="assets/qris.jpg" alt="QRIS Bos Digital" width="260">
+
+You can also find it in Notch under Settings → About. Made by **Bos Digital**.
+
 ## Requirements
 
 Windows 10/11 64-bit with Microsoft Edge WebView2 (already included in Windows 11 and up-to-date Windows 10).
@@ -32,4 +42,4 @@ Everything stays on your PC (`%APPDATA%\Notch`). Network is only used for the th
 
 ---
 
-**Bahasa Indonesia:** Notch interaktif di bagian atas layar Windows. Unduh **Setup** dari [Releases](https://github.com/liimalim/Notch-for-Windows/releases/latest) supaya Notch bisa update otomatis.
+**Bahasa Indonesia:** Notch interaktif di bagian atas layar Windows. Unduh **Setup** dari [Releases](https://github.com/liimalim/Notch-for-Windows/releases/latest) supaya Notch bisa update otomatis. Kalau Notch bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
