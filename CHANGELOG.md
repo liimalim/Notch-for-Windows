@@ -2,6 +2,13 @@
 
 All notable changes to Poni (called Notch for Windows up to 1.0.9). The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Poni/releases/latest) page, so this file is the full history.
 
+## 1.1.2 (2026-10-22)
+
+- New: Wi-Fi and Bluetooth on/off switches in the Bluetooth tab and the Dashboard quick toggles (GitHub #1)
+- New: Connect / Disconnect paired headphones and speakers right from the notch
+- New: shortcuts to the Wi-Fi network list and to add a Bluetooth device
+- Fixed: Bluetooth connect/disconnect notices now appear right away (they could take up to 30 s)
+
 ## 1.1.0 (2026-10-21)
 
 - Notch for Windows is now Poni. Settings, todos, notes and stats move over by themselves on the first start.
