@@ -2,6 +2,14 @@
 
 All notable changes to Poni (called Notch for Windows up to 1.0.9). The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Poni/releases/latest) page, so this file is the full history.
 
+## 1.1.4 (2026-10-22)
+
+- New: "Keep windows below Poni" (Settings > General, on by default): maximized windows start under Poni, so it never covers tabs or title bars
+- Fixed: other windows could cover Poni for a few seconds; it now comes back on top right away
+- Fixed: Poni stayed visible over some fullscreen apps (VLC, games, video players, fullscreen started from a maximized window)
+- Settings, the tray menu and the share sheet now say "Poni" instead of "notch"
+- New website: poni.web.id
+
 ## 1.1.3 (2026-10-22)
 
 - Fixed: dragging files from Explorer onto the notch (Shelf and drop actions) didn't work
