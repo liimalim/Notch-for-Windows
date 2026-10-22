@@ -2,7 +2,7 @@
 
 An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
 
-**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`.
+**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website and demo video: **[poni.web.id](https://poni.web.id/)**.
 
 ## Features
 
@@ -10,7 +10,8 @@ An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It li
 - **Dashboard**: weather, quick toggles (keep awake, dark mode, mute mic, lock), app launcher, day progress
 - **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch
 - **Todo** with due times and a countdown in the closed notch, **Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
-- **Screen Time, Day Progress, Bluetooth battery, System stats**
+- **Wi-Fi & Bluetooth**: radio switches, connect/disconnect headphones and speakers, device battery levels
+- **Screen Time, Day Progress, System stats**
 - **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
 - **Snap Zones**: drag a window onto the notch to tile it
 - **HUD** for volume and brightness, and an optional 3D cat that watches your mouse
