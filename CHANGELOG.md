@@ -2,6 +2,10 @@
 
 All notable changes to Poni (called Notch for Windows up to 1.0.9). The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Poni/releases/latest) page, so this file is the full history.
 
+## 1.1.3 (2026-10-22)
+
+- Fixed: dragging files from Explorer onto the notch (Shelf and drop actions) didn't work
+
 ## 1.1.2 (2026-10-22)
 
 - New: Wi-Fi and Bluetooth on/off switches in the Bluetooth tab and the Dashboard quick toggles (GitHub #1)
