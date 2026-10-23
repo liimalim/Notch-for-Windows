@@ -1,6 +1,16 @@
 # Changelog
 
-All notable changes to Poni (called Notch for Windows up to 1.0.9). The installed (Setup) version updates itself; only the newest release is kept on the [Releases](https://github.com/liimalim/Poni/releases/latest) page, so this file is the full history.
+All notable changes to Poni (called Notch for Windows up to 1.0.9). The installed (Setup) version updates itself. Releases from 1.1.3 on stay on the [Releases](https://github.com/liimalim/Poni/releases) page; this file is the full history.
+
+## 1.1.5 (2026-10-23)
+
+- New: AI Chat tab. Chat with Google Gemini (paste a free API key from Google AI Studio in Settings > AI Chat & Translate; uses gemini-3.5-flash-lite), Claude, any OpenAI-compatible API or Ollama (GitHub #1)
+- New: Wi-Fi networks inside Poni. The Bluetooth & Wi-Fi tab lists nearby networks and joins them, asking for the password right there (GitHub #1)
+- New: a clock in the closed notch when nothing else is going on, and the time and date at the top of every tab (Settings > General > Clock)
+- New: Translate can use Gemini too
+- Times now follow the Windows 24-hour setting
+- Improved: album art and visualizer in the closed notch sit evenly, clear of the rounded corners
+- Improved: Poni opens as a preview while you drag the Expanded size sliders in Settings
 
 ## 1.1.4 (2026-10-22)
 
