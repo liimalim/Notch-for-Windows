@@ -2,20 +2,22 @@
 
 An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It lives at the top of your screen: hover over it to open it, drag files onto it, or press `Alt+N`.
 
-**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website and demo video: **[poni.web.id](https://poni.web.id/)**.
+**[Download the latest version](https://github.com/liimalim/Poni/releases/latest)**: pick `Poni_x.y.z_x64-setup.exe` (recommended, updates itself) or the portable `.exe`. Website and demo video: **[poni.web.id](https://poni.web.id/)**. How to use every feature: **[the Poni guide](https://poni.web.id/en/guide/)**.
 
 ## Features
 
 - **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers, VLC and more)
-- **Dashboard**: weather, quick toggles (keep awake, dark mode, mute mic, lock), app launcher, day progress
+- **Dashboard**: weather, quick toggles (Wi-Fi, Bluetooth, keep awake, dark mode, mute mic, lock), app launcher, day progress, prayer times
 - **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch
 - **Todo** with due times and a countdown in the closed notch, **Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
+- **Prayer times**: reminders for the five daily prayers with a countdown in the closed notch (the Kemenag RI schedule in Indonesia, your local authority elsewhere)
 - **Wi-Fi & Bluetooth**: radio switches, join Wi-Fi networks right in Poni, connect/disconnect headphones and speakers, device battery levels
 - **Screen Time, Day Progress, System stats**
 - **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
 - **Snap Zones**: drag a window onto the notch to tile it
-- **HUD** for volume and brightness, a **clock** in the closed notch when nothing else is going on, and an optional 3D cat that watches your mouse
-- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama
+- **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event or task), a clock in the middle, and **auto-hide** that leaves a thin handle
+- **HUD** for volume and brightness, and an optional 3D cat that watches your mouse (click it to chat)
+- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo
 - **GitHub** pull requests waiting for your review
 
 ## Updates
@@ -45,12 +47,12 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, AI chat and translation (the provider you pick), and update checks. AI chats stay on this PC until you start a new chat.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), and update checks. AI chats stay on this PC.
 
 ## What's new
 
-What changed in every version: **[poni.web.id/catatan-rilis](https://poni.web.id/catatan-rilis/)**.
+What changed in every version: **[release notes](https://poni.web.id/en/release-notes/)** ([Bahasa Indonesia](https://poni.web.id/catatan-rilis/)).
 
 ---
 
-**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis. Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
+**Bahasa Indonesia:** Poni adalah notch interaktif di bagian atas layar Windows (dulu bernama Notch for Windows). Unduh **Setup** dari [Releases](https://github.com/liimalim/Poni/releases/latest) supaya Poni bisa update otomatis. Cara pakai semua fiturnya ada di [Panduan Poni](https://poni.web.id/panduan/). Kalau Poni bermanfaat, kamu bisa traktir developernya lewat QRIS di atas.
