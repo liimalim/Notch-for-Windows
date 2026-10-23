@@ -47,9 +47,9 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, AI chat and translation (the provider you pick), and update checks. AI chats stay on this PC until you start a new chat.
 
-## Changelog
+## What's new
 
-What changed in every version: see [CHANGELOG.md](CHANGELOG.md).
+What changed in every version: **[poni.web.id/catatan-rilis](https://poni.web.id/catatan-rilis/)**.
 
 ---
 
