@@ -4,8 +4,8 @@ All notable changes to Poni (called Notch for Windows up to 1.0.9). The installe
 
 ## 1.1.5 (2026-10-23)
 
-- New: AI Chat tab. Chat with Google Gemini (paste a free API key from Google AI Studio in Settings > AI Chat & Translate; uses gemini-3.5-flash-lite), Claude, any OpenAI-compatible API or Ollama (GitHub #1)
-- New: Wi-Fi networks inside Poni. The Bluetooth & Wi-Fi tab lists nearby networks and joins them, asking for the password right there (GitHub #1)
+- New: AI Chat tab. Chat with Google Gemini (paste a free API key from Google AI Studio in Settings > AI Chat & Translate; uses gemini-3.5-flash-lite), Claude, any OpenAI-compatible API or Ollama (GitHub #2)
+- New: Wi-Fi networks inside Poni. The Bluetooth & Wi-Fi tab lists nearby networks and joins them, asking for the password right there (GitHub #2)
 - New: a clock in the closed notch when nothing else is going on, and the time and date at the top of every tab (Settings > General > Clock)
 - New: Translate can use Gemini too
 - Times now follow the Windows 24-hour setting
@@ -26,7 +26,7 @@ All notable changes to Poni (called Notch for Windows up to 1.0.9). The installe
 
 ## 1.1.2 (2026-10-22)
 
-- New: Wi-Fi and Bluetooth on/off switches in the Bluetooth tab and the Dashboard quick toggles (GitHub #1)
+- New: Wi-Fi and Bluetooth on/off switches in the Bluetooth tab and the Dashboard quick toggles (GitHub #2)
 - New: Connect / Disconnect paired headphones and speakers right from the notch
 - New: shortcuts to the Wi-Fi network list and to add a Bluetooth device
 - Fixed: Bluetooth connect/disconnect notices now appear right away (they could take up to 30 s)
