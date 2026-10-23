@@ -10,12 +10,13 @@ An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It li
 - **Dashboard**: weather, quick toggles (keep awake, dark mode, mute mic, lock), app launcher, day progress
 - **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch
 - **Todo** with due times and a countdown in the closed notch, **Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
-- **Wi-Fi & Bluetooth**: radio switches, connect/disconnect headphones and speakers, device battery levels
+- **Wi-Fi & Bluetooth**: radio switches, join Wi-Fi networks right in Poni, connect/disconnect headphones and speakers, device battery levels
 - **Screen Time, Day Progress, System stats**
 - **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
 - **Snap Zones**: drag a window onto the notch to tile it
-- **HUD** for volume and brightness, and an optional 3D cat that watches your mouse
-- **Translate** (Claude, any OpenAI-compatible API, or local Ollama) and **GitHub** pull requests
+- **HUD** for volume and brightness, a **clock** in the closed notch when nothing else is going on, and an optional 3D cat that watches your mouse
+- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama
+- **GitHub** pull requests waiting for your review
 
 ## Updates
 
@@ -38,11 +39,13 @@ In Poni, click the cup button next to the settings gear (or open Settings → Ab
 
 Windows 10/11 64-bit with Microsoft Edge WebView2 (already included in Windows 11 and up-to-date Windows 10).
 
+Listing Wi-Fi networks needs location access for desktop apps on Windows 11 (Settings → Privacy & security → Location); Poni shows a button for it.
+
 Windows SmartScreen may warn on first run because the app isn't code-signed with a paid certificate: click **More info → Run anyway**.
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, translation (the provider you pick), and update checks.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for the things you turn on: weather (Open-Meteo), your calendar links, GitHub, AI chat and translation (the provider you pick), and update checks. AI chats stay on this PC until you start a new chat.
 
 ## Changelog
 
