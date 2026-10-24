@@ -6,18 +6,19 @@ An interactive notch for Windows 10 and 11 (formerly "Notch for Windows"). It li
 
 ## Features
 
-- **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers, VLC and more)
+- **Music**: album art with color glow, live visualizer, and controls for any player in the Windows media controls (Spotify, browsers, VLC and more), plus **lyrics** that follow the song (from LRCLIB, off until you turn them on)
 - **Dashboard**: weather, quick toggles (Wi-Fi, Bluetooth, keep awake, dark mode, mute mic, lock), app launcher, day progress, prayer times
 - **Calendar**: Google Calendar, Outlook or any iCal (.ics) link, with meeting reminders in the notch
 - **Todo** with due times and a countdown in the closed notch, **Notes, Pomodoro, Weather, Health** (water, breaks, breathing, 20-20-20 eye breaks)
 - **Prayer times**: reminders for the five daily prayers with a countdown in the closed notch (the Kemenag RI schedule in Indonesia, your local authority elsewhere)
 - **Wi-Fi & Bluetooth**: radio switches, join Wi-Fi networks right in Poni, connect/disconnect headphones and speakers, device battery levels
-- **Screen Time, Day Progress, System stats**
+- **Screen Time, Day Progress, System stats** with your PC's temperature (when Windows shares it, no admin or driver needed)
 - **Shelf and Drop Actions**: zip, extract, convert images, copy/move, OneDrive, Share, Recycle Bin
 - **Snap Zones**: drag a window onto the notch to tile it
-- **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event or task), a clock in the middle, and **auto-hide** that leaves a thin handle
+- **The closed notch**: pick what its left and right show (weather, battery, date, next prayer, event, task or temperature), a clock in the middle that stays while music plays, **auto-hide**, and a hide button (or a double right-click) that tucks Poni away to a thin handle
+- **Touchscreen support**: taps on Poni reach Poni, taps beside it go to the window behind
 - **HUD** for volume and brightness, and an optional 3D cat that watches your mouse (click it to chat)
-- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo
+- **AI Chat** and **Translate** with Google Gemini (free API key from Google AI Studio), Claude, any OpenAI-compatible API, or local Ollama. AI Chat knows your day and how your PC is doing, and can add todos, reminders, notes and calendar events, start Pomodoro or open your apps, with Undo
 - **GitHub** pull requests waiting for your review
 
 ## Updates
@@ -47,7 +48,7 @@ Windows SmartScreen may warn on first run because the app isn't code-signed with
 
 ## Privacy
 
-Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), and update checks. AI chats stay on this PC.
+Everything stays on your PC (`%APPDATA%\Poni`). Network is only used for these: weather (Open-Meteo, on from the start), prayer times (api.myquran.com in Indonesia, Aladhan elsewhere), your calendar links, GitHub, AI chat and translation (the provider you pick), lyrics (LRCLIB, if you turn them on), and update checks. AI chats stay on this PC.
 
 ## What's new
 
